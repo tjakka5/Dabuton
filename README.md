@@ -12,7 +12,7 @@ These buttons can have specific specifications such as:
 
 # Setting up a simple button that prints "hai"
 ```lua
-require "dabuton" --Require the library so we can use it.
+local button = require "dabuton" --Require the library so we can use it.
 
 function love.load()
 	local flags = {	--Setting up a table called flags with data for our button
