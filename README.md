@@ -39,7 +39,7 @@ function love.load()
 		
 		onClick = {				--The onclick function; decided what happends then the button gets clicked
 			func = print,		--When clicked, call the print...
-			args = {"hai"},	--...With the argument "hai"
+			args = {"hai"},		--...With the argument "hai"
 		},
 	}
 	
@@ -59,7 +59,7 @@ And just like that we have a very simple button.
 
 For more advanced functionality you can mess around with the flags and functions listed below:
 
-#flags
+#Flags
 ```lua
 xPos, yPos --Position of the button
 width, heigth --Size of the button
