@@ -133,7 +133,7 @@ button.setOnHover(id, func, args)	--Set the onHover command
 
 button.setOnBlur(id, func, args)	--Set the onBlur command
 
-button.setOnVisibility(id, bool)	--Makes the button visible or invisible
+button.setVisibility(id, bool)	--Makes the button visible or invisible
 
 button.setActivity(id, bool, reset)	--Makes the button active or inactive. If reset is true it will also call the button onRelease and onBlur to reset it.
 ```
