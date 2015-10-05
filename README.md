@@ -38,7 +38,7 @@ function love.load()
 		--Settings for the border
 		
 		onClick = {				--The onclick function; decided what happends then the button gets clicked
-			func = print,		--When clicked, call the print...
+			func = print,		--When clicked, call the function print...
 			args = {"hai"},		--...With the argument "hai"
 		},
 	}
