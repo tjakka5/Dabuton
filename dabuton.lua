@@ -1,4 +1,4 @@
-button = {}
+local button = {}
 
 function button.spawn(flags)
 	local xPos, yPos = flags.xPos or error("No xPos specified"), flags.yPos or error("No yPos specified")
@@ -244,3 +244,5 @@ function button.setActivity(id, bool, reset)
 		if id.onBlur then button.onBlur(id) end
 	end
 end
+
+return button
