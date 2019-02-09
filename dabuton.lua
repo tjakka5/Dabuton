@@ -78,13 +78,13 @@ end
 
 function button:updateSelf(mx, my)
   if self.flags.active then
-    if love.mouse.isDown("l") and self.onClick then
+    if love.mouse.isDown(1) and self.onClick then
       if  (my + 1 > self.yPos) and (my < self.yPos + self.height) and (mx + 1 > self.xPos) and (mx < self.xPos + self.width) then
         self:onClick()
       end
     end
 
-    if self.onRelease and self.flags.clicking and not love.mouse.isDown("l") then
+    if self.onRelease and self.flags.clicking and not love.mouse.isDown(1) then
       self:onRelease()
     end
 
